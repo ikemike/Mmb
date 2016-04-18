@@ -8,9 +8,12 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
-    <title>$Title$</title>
+    <title>Ike's Index</title>
   </head>
   <body>
-  $END$
+  <form action="../restricted/restricted.jsp">
+    <button type="submit">Login</button>
+  </form>
+
   </body>
 </html>

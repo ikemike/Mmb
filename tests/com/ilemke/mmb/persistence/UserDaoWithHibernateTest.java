@@ -14,26 +14,6 @@ import static org.junit.Assert.assertTrue;
 public class UserDaoWithHibernateTest
 {
     @Test
-    public void testGetAllUsers() throws Exception
-    {
-        UserDaoWithHibernate dao = new UserDaoWithHibernate();
-        dao.getAllUsers();
-
-    }
-
-    @Test
-    public void testUpdateUser() throws Exception
-    {
-
-    }
-
-    @Test
-    public void testDeleteUser() throws Exception
-    {
-
-    }
-
-    @Test
     public void myUnitTest()
     {
         UserDaoWithHibernate dao = new UserDaoWithHibernate();
@@ -62,6 +42,8 @@ public class UserDaoWithHibernateTest
         int after_delete_size = dao.getAllUsers().size();
         System.out.println("After Delete: " + after_delete_size);
         assertTrue(after_delete_size == initial_size);
+
+
     }
 
 

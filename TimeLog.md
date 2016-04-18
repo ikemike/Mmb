@@ -12,4 +12,6 @@
 |3/??/16| Website development | 2 | Attended night class, spent time building out my index.jsp |
 |3/??/16| Website development | 2 | Pinegrow HTML design editor |
 |4/14/16| DAO, Hibernate progress | 3 | Trying to get as far as I can in the next two weeks. I Fixed directory structures, project settings and made significant progress towards integrating my database |
-|4/16/16|
+|4/16/16| DAO, Hibernate, Unit Testing | 4 | IT WORKS! Using hibernate to create new database entries is up and running. Created
+unit tests for the User |
+|4|17|16|
