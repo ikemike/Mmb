@@ -11,14 +11,7 @@
 |2/23/16| WSDL | .5 | Didn't get very far, will need to revisit |
 |3/??/16| Website development | 2 | Attended night class, spent time building out my index.jsp |
 |3/??/16| Website development | 2 | Pinegrow HTML design editor |
-|4/14/16| DAO, Hibernate progress | 3 | Trying to get as far as I can in the next two weeks. <br>
-I Fixed directory structures, project settings and made significant progress towards integrating my database |
-|4/16/16| DAO, Hibernate, Unit Testing | 4 | IT WORKS! Using hibernate to create new database entries is up and running. <br>
-Created unit tests for the User |
+|4/14/16| DAO, Hibernate progress | 3 | Trying to get as far as I can in the next two weeks. <br>I Fixed directory structures, project settings and made significant progress towards integrating my database |
+|4/16/16| DAO, Hibernate, Unit Testing | 4 | IT WORKS! Using hibernate to create new database entries is up and running. <br>Created unit tests for the User |
 |4/17/16| User Log in | 1 | Setting up user roles |
-|4/18/16| Log in, Web design, Arduino config | 4.5 | Index.jsp has a link to the test log in page. <br>
-Very basic Authentication now works and user role Administrator is configured. <br>
-Spent a lot of time configuring the Mindflex headsets to save the .csv data they display.<br>
-Tried a program called "Gobetwino" which was able to capture data from the arduino's serial port as long as it was sending data.<br>
-Saving that data proved be a severe challenge. I ended up going with another program, called "CoolTerm" that reads the data and<br>
-saves it as a text file. The next challenge is going to be displaying it. A jquery plugin called JQuery-CSV may be my solution. |
+|4/18/16| Log in, Web design, Arduino config | 4.5 | Index.jsp has a link to the test log in page. <br>Very basic Authentication now works and user role Administrator is configured. <br>Spent a lot of time configuring the Mindflex headsets to save the .csv data they display.<br>Tried a program called "Gobetwino" which was able to capture data from the arduino's serial port as long as it was sending data.<br>Saving that data proved be a severe challenge. I ended up going with another program, called "CoolTerm" that reads the data and<br>saves it as a text file. The next challenge is going to be displaying it. A jquery plugin called JQuery-CSV may be my solution. |
