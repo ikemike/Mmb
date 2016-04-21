@@ -15,3 +15,4 @@
 |4/16/16| DAO, Hibernate, Unit Testing | 4 | IT WORKS! Using hibernate to create new database entries is up and running. <br>Created unit tests for the User |
 |4/17/16| User Log in | 1 | Setting up user roles |
 |4/18/16| Log in, Web design, Arduino config | 4.5 | Index.jsp has a link to the test log in page. <br>Very basic Authentication now works and user role Administrator is configured. <br>Spent a lot of time configuring the Mindflex headsets to save the .csv data they display.<br>Tried a program called "Gobetwino" which was able to capture data from the arduino's serial port as long as it was sending data.<br>Saving that data proved be a severe challenge. I ended up going with another program, called "CoolTerm" that reads the data and<br>saves it as a text file. The next challenge is going to be displaying it. A jquery plugin called JQuery-CSV may be my solution. |
+|4/20/16| Web Design | 4 | High level design of website |
