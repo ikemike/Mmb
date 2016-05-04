@@ -38,7 +38,7 @@ public class UserDaoWithHibernateTest
         // Attempt to delete a user
         dao.deleteUser(user);
 
-        // Check if u ser was actually deleted
+        // Check if user was actually deleted
         int after_delete_size = dao.getAllUsers().size();
         System.out.println("After Delete: " + after_delete_size);
         assertTrue(after_delete_size == initial_size);

@@ -42,7 +42,7 @@
     <div class="col-sm-2" style="height:100%;"></div>
 
     <!-- CENTER MAIN -->
-    <div class="col-sm-8" style="background-color:blue;opacity: 0.25;">
+    <div class="col-sm-8">
 
       <div class="row" style="height:200px;width:100%;font-align:center;">
         <div class="col-sm-4">
@@ -52,12 +52,12 @@
           </form>
           </span>
         </div>
-        <div class="col-sm-4">Center (ICON)</div>
+        <div class="col-sm-4"></div>
         <div class="col-sm-4"><img src="images/MMB_Brain.png" style="height:75px;width:75px;"></div>
 
       </div>
     </div>
-    <div class="col-sm-2" style="width:100%;height:100%;background-color:black;opacity: 0.99;">Right Bar</div></div>
+    <div class="col-sm-2" style="width:100%;height:100%;background-color:black;opacity: 0.99;"></div></div>
 
   </body>
 
