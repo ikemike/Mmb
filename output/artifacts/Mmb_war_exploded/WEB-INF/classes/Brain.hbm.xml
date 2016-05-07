@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+The purpose of Brain.hbm.xml:
+Maps the model class (Brain.java)
+instance variables to the database columns
+(id, serial_data)
+-->
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <!-- Specify the table name to use -->
+    <class name="com.ilemke.mmb.entity.Brain" table="brains">
+        <meta attribute="class-description">
+            This class contains brain csv data stored as serial_data and a unique id
+        </meta>
+        <id name="id" type="int" column="id">
+            <generator class="native"/>
+        </id>
+        <property name="serialData" column="serial_data" type="string"/>
+    </class>
+</hibernate-mapping>

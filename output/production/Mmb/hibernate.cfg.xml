@@ -20,10 +20,17 @@
             admin
         </property>
 
+        <mapping resource="Brain.hbm.xml" />
+        <!-- Defines which classes are mapped to the database -->
+        <mapping class="com.ilemke.mmb.entity.Brain" />
+
         <!-- User mapped to column names and data type -->
         <mapping resource="User.hbm.xml" />
         <!-- Defines which classes are mapped to the database -->
         <mapping class="com.ilemke.mmb.entity.User" />
+
+        <!-- Brain mapped to column names and data type -->
+
 
         <!--
             Other tables in my database would be mapped here

@@ -78,3 +78,7 @@ with potentially logging every single serial read to my database using a tool ca
 (https://launchpad.net/mysql-arduino). I need to turn this:
 80,0,0,915020,75621,25285,45944,40972,131545,129359,56605
 into a database entry once every second.
+
+UPDATE!
+Using a program called "CoolTermWin" I'm able to grab every serial output from the Arduino, then using a little java code
+I set up a FileInputStream and BufferedReader to loop through and grab the latest line of data.

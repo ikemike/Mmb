@@ -37,7 +37,7 @@
   <body>
 
 
-  <div class="row" style="height:100%;width:100%;">
+  <div class="row" style="height:100%;width:100%;background-color:black;">
     <!-- LEFT MAIN -->
     <div class="col-sm-2" style="height:100%;"></div>
 
