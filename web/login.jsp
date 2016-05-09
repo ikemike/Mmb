@@ -1,22 +1,24 @@
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<html>
-<head>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-    <script src="../js/jquery.vide.js"></script>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
-    <title>Log in</title>
-</head>
+<html data-vide-bg="<%=request.getContextPath()%>/images/wheat.mp4"
+            class="image_display">
+
+<c:import url="head.jsp"/>
+
 <body>
-<div style="width:100%; height:100px;" data-vide-bg="../images/Audio_bands">
+
+<c:import url="nav-bar.jsp"/>
+
+
+<div class="container" style="margin-top:5%">
+    <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-6"><c:import url="login-template.jsp" /></div>
+        <div class="col-md-3"></div>
+    </div>
 </div>
 
-<FORM ACTION="j_security_check" METHOD="POST">
-    <TABLE>
-        <TR><TD>User name: <INPUT TYPE="TEXT" NAME="j_username">
-        <TR><TD>Password: <INPUT TYPE="PASSWORD" NAME="j_password">
-        <TR><TH><INPUT TYPE="SUBMIT" VALUE="Log In">
-    </TABLE>
-</FORM>
+
 
 </body>
 </html>

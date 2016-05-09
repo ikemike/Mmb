@@ -9,7 +9,6 @@ public class User
 {
 
     private int id;
-    private String username;
     private String firstName;
     private String lastName;
     private String emailAddress;
@@ -17,10 +16,9 @@ public class User
 
     public User() {}
 
-    public User(int id, String username, String firstName, String lastName, String emailAddress, String password)
+    public User(int id, String firstName, String lastName, String emailAddress, String password)
     {
         this.id = id;
-        this.username = username;
         this.firstName = firstName;
         this.lastName = lastName;
         this.emailAddress = emailAddress;
@@ -35,14 +33,6 @@ public class User
     public void setId(int id)
     {
         this.id = id;
-    }
-
-    public String getUsername() {
-        return username;
-    }
-
-    public void setUsername(String usename) {
-        this.username = username;
     }
 
     public String getFirstName() {
@@ -91,7 +81,6 @@ public class User
     public String toString() {
         return "User{" +
                 "id=" + id +
-                ", username ='" + username + '\'' +
                 ", firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
                 ", emailAddress='" + emailAddress + '\'' +

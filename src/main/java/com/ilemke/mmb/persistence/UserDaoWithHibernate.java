@@ -28,7 +28,7 @@ public class UserDaoWithHibernate implements UserDao
      * Returns a list of all User objects
      * @Override
      */
-    @Override
+    //@Override
     public List<User> getAllUsers()
     {
         List<User> users = new ArrayList<User>();
@@ -39,13 +39,13 @@ public class UserDaoWithHibernate implements UserDao
         return users;
     }
 
-    @Override
+    //@Override
     public void updateUser(User user)
     {
 
     }
 
-    @Override
+    //@Override
     public void deleteUser(User user)
     {
         Session session = SessionFactoryProvider.getSessionFactory().openSession();
@@ -77,7 +77,7 @@ public class UserDaoWithHibernate implements UserDao
         }
     }
 
-    @Override
+    //@Override
     public int addUser(User user)
     {
         Session session = SessionFactoryProvider.getSessionFactory().openSession();
@@ -109,7 +109,8 @@ public class UserDaoWithHibernate implements UserDao
         return userId;
     }
 
-    public User getUserByUsername(String username)
+    /*
+    public User getUserByEmail(String email)
     {
         Session session = SessionFactoryProvider.getSessionFactory().openSession();
         Transaction tx = null;
@@ -118,7 +119,7 @@ public class UserDaoWithHibernate implements UserDao
         {
             tx = session.beginTransaction();
             Query query = session.createQuery("from User where username = :user_name");
-            query.setParameter("user_name", username);
+            query.setParameter("user_name", email);
 
             // Query for the user
             user = (User) query.list().get(0);
@@ -140,7 +141,7 @@ public class UserDaoWithHibernate implements UserDao
         return user;
     }
 
-
+    */
 
 
     /* Adding Roles:

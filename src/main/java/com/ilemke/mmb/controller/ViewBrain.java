@@ -21,7 +21,7 @@ import javax.servlet.http.HttpSession;
  */
 
 
-@WebServlet(name="viewBrain", urlPatterns = { "/viewBrain" })
+@WebServlet(name="viewBrain", urlPatterns = { "/restricted/viewBrain" })
 /**
  * Servlet ViewBrain
  */
@@ -49,7 +49,7 @@ public class ViewBrain extends HttpServlet  {
 
         HttpSession session = req.getSession();
         session.setAttribute("brains", brains);
-        String url = "/viewBrain.jsp";
+        String url = "/restricted/viewBrain.jsp";
         resp.sendRedirect(url);
         //RequestDispatcher dispatcher = req.getRequestDispatcher("/viewBrain.jsp");
         //dispatcher.forward(req, resp);

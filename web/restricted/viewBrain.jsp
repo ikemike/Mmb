@@ -1,12 +1,18 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
-<html>
-<c:import url="head.jsp"/>
+<html data-vide-bg="<%=request.getContextPath()%>/images/wheat.mp4"
+      class="image_display">
 
+<c:import url="../head.jsp"/>
+<script src="<%=request.getContextPath()%>/js/div-load.js"></script>
 <body>
-<c:import url="nav-bar.jsp"/>
-<div class="container">
+<c:import url="../nav-bar.jsp"/>
+<div class="container" id="loadable">
+    <div class="panel panel-default">
+        <div class="panel-heading">
     <h3>Brain Data</h3>
+            </div>
+        <div class="panel-body">
     <c:choose>
         <c:when test="${!empty brains}">
             <table class="table table-responsive">
@@ -28,6 +34,7 @@
             <p>Oh...I think something's broken :( </p>
         </c:otherwise>
     </c:choose>
+            </div></div>
 </div>
 </body>
 </html>
