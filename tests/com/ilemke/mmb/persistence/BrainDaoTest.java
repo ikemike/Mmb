@@ -3,6 +3,8 @@ package com.ilemke.mmb.persistence;
 import com.ilemke.mmb.entity.Brain;
 import org.junit.Test;
 
+import java.util.List;
+
 /**
  * Created by Isaac on 5/7/2016.
  *
@@ -16,7 +18,8 @@ public class BrainDaoTest {
     public void testGetAllBrains() throws Exception {
         BrainDao dao = new BrainDao();
         int initial_size = dao.getAllBrains().size();
-        System.out.println(initial_size);
+        List<Brain> brainList = dao.getAllBrains();
+        System.out.println(brainList);
     }
 
     @Test

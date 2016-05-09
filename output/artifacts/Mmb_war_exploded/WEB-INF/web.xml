@@ -13,7 +13,7 @@
         </form-login-config>
     </login-config>
 
-    <!-- Protect everything within the "investing" directory. -->
+    <!-- Protect everything within the "restricted" directory. -->
     <security-constraint>
         <web-resource-collection>
             <web-resource-name>restricted</web-resource-name>
@@ -24,5 +24,11 @@
             <role-name>administrator</role-name>
         </auth-constraint>
     </security-constraint>
+
+    <!-- Servlet Information -->
+    <servlet>
+        <servlet-name>View_Brain</servlet-name>
+        <servlet-class>com.ilemke.mmb.controller.ViewBrain</servlet-class>
+    </servlet>
 
 </web-app>

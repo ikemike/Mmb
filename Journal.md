@@ -82,3 +82,10 @@ into a database entry once every second.
 UPDATE!
 Using a program called "CoolTermWin" I'm able to grab every serial output from the Arduino, then using a little java code
 I set up a FileInputStream and BufferedReader to loop through and grab the latest line of data.
+
+Created BrainDao, BrainDaoTest for data storage
+
+OK - not too sure what I'm doing adding Maven but I gave it a go since I wasn't able to add the correct version of
+Javax.Servlet to my project.
+
+

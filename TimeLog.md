@@ -23,4 +23,7 @@
 |4/26/16| Web | 1 | Index.jsp changed |
 |4/28/16| Code review changes | 1 | Index.jsp changes made |
 |5/03/16| Logging serial data | 2 | Investigated other ways of making data transmission between the arduino and my website easier.<br> ThingSpeak had a lot of potential, but updates once every 15 seconds will not work. |
+|5/05/16| Logging serial data | .5 | Feel like I'm getting a lot closer here to saving data from the headsets - Just more research right now |
+|5/07/16| Serial Storage DAO | 4 | Serial data is available to be parsed & stored. BrainDao created for data storage. BrainDaoTest created for record testing |
+
 
