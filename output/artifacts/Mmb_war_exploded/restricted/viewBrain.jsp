@@ -1,7 +1,6 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
-<html data-vide-bg="<%=request.getContextPath()%>/images/wheat.mp4"
-      class="image_display">
+<html>
 
 <c:import url="../head.jsp"/>
 <script src="<%=request.getContextPath()%>/js/div-load.js"></script>

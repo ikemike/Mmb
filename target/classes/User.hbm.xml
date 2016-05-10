@@ -22,5 +22,6 @@ instance variables to the database columns
         <property name="lastName" column="last_name" type="string"/>
         <property name="emailAddress" column="email_address" type="string"/>
         <property name="password" column="password" type="string"/>
+        <property name="role" column="role" type="string"/>
     </class>
 </hibernate-mapping>

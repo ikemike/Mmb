@@ -15,12 +15,10 @@
 <c:import url="nav-bar.jsp"/>
 <div class="container" style="margin-top:5%">
 <div class="row">
-  <div class="col-md-3"></div>
-  <div class="col-md-6">
-    <div class=""
+  <div class="col-md-2"></div>
+  <div class="col-md-8"><c:import url="welcome-template.jsp"/></div>
 
-  </div>
-  <div class="col-md-3"></div>
+  <div class="col-md-2"></div>
   </div>
 </div>
   </body>

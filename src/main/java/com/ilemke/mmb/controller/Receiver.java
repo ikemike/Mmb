@@ -16,10 +16,11 @@ public class Receiver {
     public static void main(String[] args) throws IOException, InterruptedException {
 
         FileInputStream fis = null;
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 90; i++) {
             try {
-                //System.out.println("test");
-                FileInputStream in = new FileInputStream("B:/MadJavaGitHubFiles/Mmb/src/main/resources/demoCapture.txt");
+                System.out.println("test");
+                //FileInputStream in = new FileInputStream("B:/MadJavaGitHubFiles/Mmb/src/main/resources/demoCapture.txt");
+                FileInputStream in = new FileInputStream("../Mmb/src/main/resources/demoCapture.txt");
                 BufferedReader br = new BufferedReader(new InputStreamReader(in));
 
                 String strLine = null, tmp;

@@ -13,16 +13,18 @@ public class User
     private String lastName;
     private String emailAddress;
     private String password;
+    private String role;
 
     public User() {}
 
-    public User(int id, String firstName, String lastName, String emailAddress, String password)
+    public User(int id, String firstName, String lastName, String emailAddress, String password, String role)
     {
         this.id = id;
         this.firstName = firstName;
         this.lastName = lastName;
         this.emailAddress = emailAddress;
         this.password = password;
+        this.role = role;
     }
 
     public int getId()
@@ -67,6 +69,10 @@ public class User
         this.password = password;
     }
 
+    public String getRole() { return role; }
+
+    public void setRole(String role) { this.role = role; }
+
     @Override
     public int hashCode() {
         return super.hashCode();
@@ -85,6 +91,7 @@ public class User
                 ", lastName='" + lastName + '\'' +
                 ", emailAddress='" + emailAddress + '\'' +
                 ", password='" + password + '\'' +
+                ", role = '" + role + '\'' +
                 '}';
 
     }

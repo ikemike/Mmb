@@ -5,6 +5,7 @@ import org.apache.log4j.Logger;
 import org.hibernate.HibernateException;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
+import org.hibernate.criterion.Order;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -24,7 +25,7 @@ public class BrainDao {
     public List<Brain> getAllBrains() {
         List<Brain> brains = new ArrayList<Brain>();
         Session session = SessionFactoryProvider.getSessionFactory().openSession();
-        brains = session.createCriteria(Brain.class).list();
+        brains = session.createCriteria(Brain.class).addOrder(Order.desc("id")).list();
         return brains;
     }
 

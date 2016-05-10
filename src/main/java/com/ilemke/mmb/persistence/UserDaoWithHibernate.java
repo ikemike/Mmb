@@ -88,6 +88,7 @@ public class UserDaoWithHibernate implements UserDao
         try
         {
             tx = session.beginTransaction();
+            user.setRole("registered");
             userId = (Integer) session.save(user);
             // session.save(createUserRole(user)); give the user a user role
             tx.commit();
@@ -107,6 +108,17 @@ public class UserDaoWithHibernate implements UserDao
             session.close();
         }
         return userId;
+    }
+
+    // Adding Roles:
+    /*
+    private void createUserRole(User user)
+    {
+
+        UsersRoles usersRoles = new UsersRoles();
+        usersRoles.setEmailAddress(user.getEmailAddress());
+        usersRoles.setRole("user");
+        return usersRoles;
     }
 
     /*
@@ -144,15 +156,7 @@ public class UserDaoWithHibernate implements UserDao
     */
 
 
-    /* Adding Roles:
-    private UsersRoles createUserRole(User user)
-    {
 
-        UsersRoles usersRoles = new UsersRoles();
-        usersRoles.setEmailAddress(user.getEmailAddress());
-        usersRoles.setRole("user");
-        return usersRoles;
-    }
-    */
+
 
 }

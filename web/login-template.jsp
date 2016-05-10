@@ -52,9 +52,8 @@
                     </form>
                 </div>
                 <div class="panel-footer">
-                    Or <a href="http://www.jquery2dotnet.com">create a new account</a>
+                    Or <a href="new-account.jsp">create a new account</a>
                 </div>
             </div>
         </div>
     </div>
-</div>
