@@ -44,7 +44,7 @@ public class ViewBrain extends HttpServlet  {
 
         List<Brain> brains = dao.getAllBrains();
 
-        log.debug("Sending all brain info");\
+        log.debug("Sending all brain info");
         HttpSession session = req.getSession();
         session.setAttribute("brains", brains);
         String url = "/restricted/viewBrain.jsp";
