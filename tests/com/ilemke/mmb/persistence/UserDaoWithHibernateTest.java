@@ -3,7 +3,6 @@ package com.ilemke.mmb.persistence;
 import com.ilemke.mmb.entity.User;
 import org.junit.Test;
 
-//import javax.ejb.TransactionAttribute;
 import java.util.List;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
@@ -27,8 +26,9 @@ public class UserDaoWithHibernateTest
         user.setEmailAddress("UnitTest@Test.com");
         user.setPassword("password");
         user.setId(0);
-        insertedUserId = dao.addUser(user);
 
+
+        insertedUserId = dao.addUser(user);
         // Check if user was actually added
         assertTrue(insertedUserId > 0);
         int after_insert_size = dao.getAllUsers().size();

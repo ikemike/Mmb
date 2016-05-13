@@ -4,9 +4,8 @@ $(document).ready(function() {
         $.ajax({
            type:"GET",
             url:"/restricted/viewBrain"
-
         });
-    }, 500);
+    }, 1000);
 
 });
 

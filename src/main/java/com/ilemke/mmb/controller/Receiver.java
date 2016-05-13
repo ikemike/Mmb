@@ -13,16 +13,19 @@ import java.io.InputStreamReader;
  */
 public class Receiver {
 
+    /**
+     *
+     * @throws IOException
+     * @throws InterruptedException
+     */
     public static void main(String[] args) throws IOException, InterruptedException {
-
         FileInputStream fis = null;
         for (int i = 0; i < 90; i++) {
             try {
-                System.out.println("test");
-                //FileInputStream in = new FileInputStream("B:/MadJavaGitHubFiles/Mmb/src/main/resources/demoCapture.txt");
-                FileInputStream in = new FileInputStream("../Mmb/src/main/resources/demoCapture.txt");
-                BufferedReader br = new BufferedReader(new InputStreamReader(in));
 
+                //FileInputStream in = new FileInputStream("B:/MadJavaGitHubFiles/Mmb/src/main/resources/demoCapture.txt");
+                FileInputStream in = new FileInputStream("C:/Users/Ike/IdeaProjects/maps/Mmb/resources/BrainData.asc");
+                BufferedReader br = new BufferedReader(new InputStreamReader(in));
                 String strLine = null, tmp;
 
                 while ((tmp = br.readLine()) != null) {
@@ -39,9 +42,8 @@ public class Receiver {
                 in.close();
 
             } catch (Exception e) {
-                System.out.println(e);
             }
-            Thread.sleep(1050);
+            Thread.sleep(1005);
         }
     }
 

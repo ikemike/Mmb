@@ -1,6 +1,7 @@
 package com.ilemke.mmb.controller;
 
 import com.ilemke.mmb.entity.Brain;
+
 import com.ilemke.mmb.persistence.BrainDao;
 import org.apache.log4j.Logger;
 
@@ -44,7 +45,7 @@ public class ViewBrain extends HttpServlet  {
 
         List<Brain> brains = dao.getAllBrains();
 
-        log.debug("Sending all brain info");\
+        log.debug("Sending all brain info");
         HttpSession session = req.getSession();
         session.setAttribute("brains", brains);
         String url = "/restricted/viewBrain.jsp";

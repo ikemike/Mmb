@@ -1,5 +1,6 @@
 package com.ilemke.mmb.persistence;
 
+
 import com.ilemke.mmb.entity.Brain;
 import org.junit.Test;
 
@@ -19,7 +20,6 @@ public class BrainDaoTest {
         BrainDao dao = new BrainDao();
         int initial_size = dao.getAllBrains().size();
         List<Brain> brainList = dao.getAllBrains();
-        System.out.println(brainList);
     }
 
     @Test
@@ -27,17 +27,15 @@ public class BrainDaoTest {
 
         // Create a new Brain data entry
         BrainDao dao = new BrainDao();
-        int insertedBrainId = 0;
+        int insertedBrainId = 50000;
 
         Brain brain = new Brain();
         brain.setSerialData("test serial input");
-        brain.setId(1);
-        System.out.println(brain);
+        brain.setId(999999);
         insertedBrainId = dao.addBrain(brain);
-        System.out.println(insertedBrainId);
 
 
-        //dao.deleteBrain(brain);
+
     }
 
     @Test

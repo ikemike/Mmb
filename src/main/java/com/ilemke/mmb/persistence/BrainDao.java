@@ -1,6 +1,7 @@
 package com.ilemke.mmb.persistence;
-
 import com.ilemke.mmb.entity.Brain;
+import com.ilemke.mmb.persistence.SessionFactoryProvider;
+
 import org.apache.log4j.Logger;
 import org.hibernate.HibernateException;
 import org.hibernate.Session;
@@ -25,7 +26,7 @@ public class BrainDao {
     public List<Brain> getAllBrains() {
         List<Brain> brains = new ArrayList<Brain>();
         Session session = SessionFactoryProvider.getSessionFactory().openSession();
-        brains = session.createCriteria(Brain.class).addOrder(Order.desc("id")).list();
+        brains = session.createCriteria(Brain.class).addOrder(Order.desc("id")).setMaxResults(20).list();
         return brains;
     }
 

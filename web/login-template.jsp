@@ -9,7 +9,7 @@
 
 </style>
 
-<div class="container-fluid">
+<div class="container-fixed">
     <div class="row">
         <!-- <div class="col-md-4 col-md-offset-3"> -->
             <div class="panel panel-default">
