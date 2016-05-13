@@ -29,4 +29,4 @@
 |5/09/16| Site Design, Data storage | 10 | Pulled an all-nighter to get the project presentation ready. |
 |5/10/16| Presentation preparation | 6 | Continuing on from Monday, I needed to transport my code & database from my desktop to laptop. |
 |5/11/16| Final plans | 1 | Documentation, servlet fixup, best buy API attempt |
-|5/12/16| Final push | 3 | Tried to get a basic API implementation to meet requirements, add properties access, documentation, openshift. |
+|5/12/16| Final push | 5 | Tried to get a basic API implementation to meet requirements, add properties access, documentation, openshift. |
