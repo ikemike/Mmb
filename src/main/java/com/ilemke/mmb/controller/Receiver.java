@@ -13,13 +13,18 @@ import java.io.InputStreamReader;
  */
 public class Receiver {
 
-    public static void main(String[] args) throws IOException, InterruptedException {
+    /**
+     * Processing class to log entries from arduino serial output
+     * @throws IOException
+     * @throws InterruptedException
+     */
+    public void startReceiver() throws IOException, InterruptedException {
 
         FileInputStream fis = null;
         for (int i = 0; i < 90; i++) {
             try {
-                System.out.println("test");
-                //FileInputStream in = new FileInputStream("B:/MadJavaGitHubFiles/Mmb/src/main/resources/demoCapture.txt");
+
+                // Ideally this is going to use the path specified in the properties file
                 FileInputStream in = new FileInputStream("../Mmb/src/main/resources/demoCapture.txt");
                 BufferedReader br = new BufferedReader(new InputStreamReader(in));
 
