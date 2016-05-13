@@ -9,7 +9,7 @@
 |2/16/16| Arduino brain library | .5 | Configuration of the publicly available "Brain Library" for Arduino |
 |2/17/16| Script testing, development | 1 | Configuration of Brain Library, troubleshooting IDE compatibility issues |
 |2/23/16| WSDL | .5 | Didn't get very far, will need to revisit |
-|2/25|16| Script Testing | 2 | Brain Library - Fixed some compatibility issues |
+|2/25/16| Script Testing | 2 | Brain Library - Fixed some compatibility issues |
 |3/01/16| Script Testing | 2 | Finally resolved compatibility issues, visualizing csv data works! |
 |3/05/16| Data Visualization | 1 | Started researching ways to display my data on the web |
 |3/08/16| Data Storage | 1 | Spent a small amount of time trying to plan out database storage of my data |
