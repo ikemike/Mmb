@@ -99,7 +99,7 @@ of intelliJ, keeping my config files, just in-case a reinstall solved things. No
 attempts to salvage my precious IDE, I ended up doing a full uninstall, reinstall. And 3 short hours later,
 I finally had my project functioning (for the most part, as I discovered during the presentation).
 Today after class I spent a little time trying to write up a quick API implementation for best buy, improved my
-test classes, wrote a little documentation, started a properties file, and finally, completed my journal.
+test classes, wrote a little documentation, started a properties file, wasted a bunch of time on openshift, and finally, completed my journal.
 
 
 
