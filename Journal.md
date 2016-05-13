@@ -88,4 +88,18 @@ Created BrainDao, BrainDaoTest for data storage
 OK - not too sure what I'm doing adding Maven but I gave it a go since I wasn't able to add the correct version of
 Javax.Servlet to my project.
 
+Week 16
+Final week - I needed to get the database set up on my laptop for presentation. In the end, I should have
+just gone with an Openshift deployment. So, in transporting the database I continually ran into configuration issues
+with hibernate not have proper access to my database, JSTL not functioning, or other miscellaneous libraries
+preventing operation. After some frustration, I tried importing my intelliJ configuration onto my laptop,
+which caused intelliJ to quit functioning all together. I'd load up any project and it would just
+hang on a loading screen. As the night got long, I wanted to wrap things up, so I did a quick reinstall
+of intelliJ, keeping my config files, just in-case a reinstall solved things. No go. After numerous different
+attempts to salvage my precious IDE, I ended up doing a full uninstall, reinstall. And 3 short hours later,
+I finally had my project functioning (for the most part, as I discovered during the presentation).
+Today after class I spent a little time trying to write up a quick API implementation for best buy, improved my
+test classes, wrote a little documentation, started a properties file, and finally, completed my journal.
+
+
 

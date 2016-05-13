@@ -25,5 +25,8 @@
 |5/03/16| Logging serial data | 2 | Investigated other ways of making data transmission between the arduino and my website easier.<br> ThingSpeak had a lot of potential, but updates once every 15 seconds will not work. |
 |5/05/16| Logging serial data | .5 | Feel like I'm getting a lot closer here to saving data from the headsets - Just more research right now |
 |5/07/16| Serial Storage DAO | 4 | Serial data is available to be parsed & stored. BrainDao created for data storage. BrainDaoTest created for record testing |
-
-
+|5/08/16| Serial Storage DAO | 3 | Data storage, hibernate |
+|5/09/16| Site Design, Data storage | 10 | Pulled an all-nighter to get the project presentation ready. |
+|5/10/16| Presentation preparation | 6 | Continuing on from Monday, I needed to transport my code & database from my desktop to laptop. |
+|5/11/16| Final plans | 1 | Documentation, servlet fixup, best buy API attempt |
+|5/12/16| Final push | 3 | Tried to get a basic API implementation to meet requirements, add properties access, documentation, openshift. |

@@ -58,8 +58,8 @@ public class UserDaoWithHibernate implements UserDao
             tx = session.beginTransaction();
 
             session.delete(user);
+            tx.commit();
             session.flush();
-            // session.save(createUserRole(user)); give the user a user role
             log.info("User was deleted: " + user + " id = " + userId);
         }
         /* Catch hibernate exception, output error message */
